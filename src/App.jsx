@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.main.css";
+import "./App.css";
 
 function App() {
   return (
@@ -7,8 +8,8 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Sales />}></Route>
-          <Route path="/create" element={<CreateSale/>}></Route>
-          <Route path="/update" element={<UpdateSale/>}></Route>
+          <Route path="/create" element={<CreateSale />}></Route>
+          <Route path="/update" element={<UpdateSale />}></Route>
         </Routes>
       </BrowserRouter>
     </div>
