@@ -1,7 +1,9 @@
+import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
-
+import Sales from "./Sales";
+import CreateSale from "./CreateSale";
 function App() {
   return (
     <div>
